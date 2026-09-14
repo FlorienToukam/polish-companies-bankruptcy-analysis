@@ -1,0 +1,15 @@
+# Execution cache and local editor state
+.cache/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+._*
+__MACOSX/
+*.zip
+*.tmp
+__pycache__/
+*.pyc
+~$*
+# The public UCI data are intentionally retained with attribution.
