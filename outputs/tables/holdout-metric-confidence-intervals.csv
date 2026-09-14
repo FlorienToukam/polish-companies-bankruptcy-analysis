@@ -1,0 +1,15 @@
+"model","metric","lower_95","upper_95"
+"Ridge logistic","roc_auc",0.790398778630505,0.907109487911011
+"Ridge logistic","average_precision",0.477974932090634,0.676547289108676
+"Ridge logistic","recall",0.66656267725468,0.854584190420217
+"Ridge logistic","specificity",0.815619869642988,0.861400263667671
+"Ridge logistic","precision",0.226526767151767,0.298980161684927
+"Ridge logistic","accuracy",0.812472403280067,0.853826466867332
+"Ridge logistic","brier",0.0365724423881504,0.0505189039415409
+"Balanced random forest","roc_auc",0.820541696292656,0.912209659607965
+"Balanced random forest","average_precision",0.379202357147727,0.591744187698171
+"Balanced random forest","recall",0.676538296041308,0.855421686746988
+"Balanced random forest","specificity",0.835681149187534,0.87790079223785
+"Balanced random forest","precision",0.246723210709995,0.330122455618552
+"Balanced random forest","accuracy",0.828104369210473,0.872307116611099
+"Balanced random forest","brier",0.0421296326825049,0.0532660601138657

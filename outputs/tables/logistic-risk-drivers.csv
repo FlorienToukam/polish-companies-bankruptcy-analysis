@@ -1,0 +1,17 @@
+"feature","description","coefficient","development_iqr","calibrated_odds_ratio_per_iqr","cv_positive_fraction"
+"Attr21","Sales growth ratio",-1.70929309149352,0.2705925,0.608608882231099,0
+"Attr3","Working capital / assets",-0.763784732903347,0.37682375,0.734177004228551,0
+"Attr29","Log total assets",-0.238541924028982,1.010575,0.771965697728768,0
+"Attr13","Gross profit plus depreciation / sales",-1.72643369572216,0.1123845,0.811954259198192,0
+"Attr1","Net profit / assets",-1.41364616824191,0.113594,0.841637337097334,0
+"Attr2","Liabilities / assets",0.383503334052833,0.4082075,1.18302691464181,1
+"Attr25","Equity less share capital / assets",-0.161119374413403,0.4617325,0.923234495840163,0
+"Attr44","Receivables days",-0.00118299998308805,46.458,0.942700405755159,0
+"Attr26","Net profit plus depreciation / liabilities",-0.106543347337398,0.508411,0.943502345751824,0
+"Attr20","Inventory days",0.000744700272902261,49.027,1.03997725828379,1
+"Attr6","Retained earnings / assets",0.201277463545437,0.10514,1.0229806668152,1
+"Attr9","Sales / assets",0.0241562415595595,0.81765,1.0214321705401,0.8
+"Attr40","Cash-like current assets / short-term liabilities",0.0275110043240348,0.62196975,1.01854075731916,0.9
+"Attr4","Current assets / short-term liabilities",0.00662058741769288,1.832875,1.01311347939977,0.9
+"Attr61","Sales / receivables",-0.000166165594494735,5.078175,0.999094458190472,0.6
+"Attr60","Sales / inventory",-3.80938760919754e-05,11.23005,0.999540808784036,0.5

@@ -1,0 +1,21 @@
+"file","horizon_years","sample","feature_set","outcome","n","retained_n","removed_n","removed_fraction"
+"1year.arff",5,"Development","All 64 ratios","Non-bankrupt",5405,2518,2887,0.53413506012951
+"1year.arff",5,"Development","All 64 ratios","Bankrupt",217,24,193,0.889400921658986
+"1year.arff",5,"Development","Model 16 ratios","Non-bankrupt",5405,4129,1276,0.236077705827937
+"1year.arff",5,"Development","Model 16 ratios","Bankrupt",217,124,93,0.428571428571429
+"2year.arff",4,"Development","All 64 ratios","Non-bankrupt",7821,3213,4608,0.589182968929804
+"2year.arff",4,"Development","All 64 ratios","Bankrupt",320,57,263,0.821875
+"2year.arff",4,"Development","Model 16 ratios","Non-bankrupt",7821,5311,2510,0.320930827259941
+"2year.arff",4,"Development","Model 16 ratios","Bankrupt",320,182,138,0.43125
+"3year.arff",3,"Development","All 64 ratios","Non-bankrupt",8003,3820,4183,0.522678995376734
+"3year.arff",3,"Development","All 64 ratios","Bankrupt",396,85,311,0.785353535353535
+"3year.arff",3,"Development","Model 16 ratios","Non-bankrupt",8003,7058,945,0.118080719730101
+"3year.arff",3,"Development","Model 16 ratios","Bankrupt",396,258,138,0.348484848484849
+"4year.arff",2,"Development","All 64 ratios","Non-bankrupt",7424,3708,3716,0.500538793103448
+"4year.arff",2,"Development","All 64 ratios","Bankrupt",411,96,315,0.766423357664234
+"4year.arff",2,"Development","Model 16 ratios","Non-bankrupt",7424,6937,487,0.0655980603448276
+"4year.arff",2,"Development","Model 16 ratios","Bankrupt",411,294,117,0.284671532846715
+"5year.arff",1,"Development","All 64 ratios","Non-bankrupt",4399,2339,2060,0.468288247328938
+"5year.arff",1,"Development","All 64 ratios","Bankrupt",327,81,246,0.752293577981651
+"5year.arff",1,"Development","Model 16 ratios","Non-bankrupt",4399,4185,214,0.0486474198681519
+"5year.arff",1,"Development","Model 16 ratios","Bankrupt",327,229,98,0.299694189602446

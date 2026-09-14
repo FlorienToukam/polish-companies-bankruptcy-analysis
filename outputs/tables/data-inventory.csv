@@ -1,0 +1,6 @@
+"file","horizon_years","observations","predictors","bankruptcies","bankruptcy_rate","exact_predictor_groups","duplicate_excess","missing_values","missing_outcomes"
+"1year.arff",5,7027,64,271,0.0385655329443575,6945,82,5835,0
+"2year.arff",4,10173,64,400,0.0393197680133687,10083,90,12157,0
+"3year.arff",3,10503,64,495,0.0471293916023993,10416,87,9888,0
+"4year.arff",2,9792,64,515,0.052593954248366,9710,82,8776,0
+"5year.arff",1,5910,64,410,0.0693739424703892,5850,60,4666,0

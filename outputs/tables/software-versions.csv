@@ -1,0 +1,6 @@
+"package","version"
+"R","4.5.2"
+"glmnet","4.1.10"
+"randomForest","4.7.1.2"
+"pROC","1.19.0.1"
+"jsonlite","2.0.0"

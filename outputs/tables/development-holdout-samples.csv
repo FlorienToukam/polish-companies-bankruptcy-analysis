@@ -1,0 +1,11 @@
+"file","sample","n","bankruptcies"
+"1year.arff","Development",5622,217
+"1year.arff","Holdout",1405,54
+"2year.arff","Development",8141,320
+"2year.arff","Holdout",2032,80
+"3year.arff","Development",8399,396
+"3year.arff","Holdout",2104,99
+"4year.arff","Development",7835,411
+"4year.arff","Holdout",1957,104
+"5year.arff","Development",4726,327
+"5year.arff","Holdout",1184,83
