@@ -140,7 +140,6 @@ tests/verify_results.R
 tests/verify_package.py
 requirements.txt
 renv.lock
-Final_Project_Report_Florien_Siakoua_Toukam.docx
 Final_Project_Report_Florien_Siakoua_Toukam.pdf
 ```
 
