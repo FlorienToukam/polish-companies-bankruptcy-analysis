@@ -1,0 +1,2 @@
+# The HTML report is generated from the report-building script.
+reports/*.html linguist-generated=true

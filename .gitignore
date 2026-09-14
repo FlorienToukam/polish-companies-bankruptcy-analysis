@@ -12,4 +12,6 @@ __MACOSX/
 __pycache__/
 *.pyc
 ~$*
+# Editable report copies; published reports use PDF, Markdown and HTML.
+*.docx
 # The public UCI data are intentionally retained with attribution.
