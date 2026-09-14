@@ -452,9 +452,11 @@ figure{margin:24px 0}img{width:100%;height:auto}figcaption{font-size:13px;color:
 
 Financial ratio analysis for bankruptcy screening, with repeated cross-validation, a separate holdout, risk segmentation and a calibrated random-forest challenger.
 
+[Executive summary (PDF)](reports/Bankruptcy_Risk_Executive_Summary.pdf) · [Full report (PDF)](Final_Project_Report_Florien_Siakoua_Toukam.pdf) · [Methodology](docs/methodology-notes.md) · [Run the analysis](#run-the-analysis)
+
 {headline}
 
-## One year holdout results
+## One-year holdout results
 
 {markdown_blocks([table(['Metric', 'Ridge logistic', 'Balanced forest'], metric_rows[:6])], '')}
 
@@ -539,7 +541,7 @@ R_LIBS_USER=.cache/R-library Rscript final_project.R
 R_LIBS_USER=.cache/R-library Rscript tests/verify_results.R
 ```
 
-The terminal commands above use macOS/Linux syntax. In RStudio or on Windows, run the R setup above, then `source("final_project.R")` and `source("tests/verify_results.R")`. The lockfile records R and package versions; it does not install R or system compilers. If an archived package has no compatible binary, source installation requires the platform's R build tools, including a Fortran compiler for glmnet. The local package library stays outside the published ZIP through the existing `.cache/` exclusion.
+The terminal commands above use macOS/Linux syntax. In RStudio or on Windows, run the R setup above, then `source("final_project.R")` and `source("tests/verify_results.R")`. The lockfile records R and package versions; it does not install R or system compilers. If an archived package has no compatible binary, source installation requires the platform's R build tools, including a Fortran compiler for glmnet. The local package library is excluded from version control through `.cache/`.
 
 This regenerates all analytical CSVs and PNGs, including their folders if absent. All required data are included, and no external local files or saved model cache are required. The tested R and package versions are recorded in [software versions](outputs/tables/software-versions.csv) and [session information](docs/session-info.txt). Numerical fitting checks stop the analysis if convergence fails. Both macOS Quartz and Cairo-capable PNG rendering are supported.
 
@@ -550,7 +552,7 @@ python3 -m pip install -r requirements.txt
 python3 scripts/build_reports.py
 ```
 
-To regenerate PDFs as well, install LibreOffice and make its `soffice` command available, then run `python3 scripts/build_reports.py --pdf`. Otherwise open the generated Word files and export them to PDF. Run `python3 tests/verify_package.py` after rebuilding. The HTML report embeds its figures and does not need an internet connection to display the analysis.
+To regenerate PDFs as well, install LibreOffice and make its `soffice` command available, then run `python3 scripts/build_reports.py --pdf`. Otherwise open the generated Word files and export them to PDF. Word files are local editing copies excluded from version control; the repository includes the PDFs. Run `python3 tests/verify_package.py` after rebuilding. The HTML report embeds its figures and does not need an internet connection to display the analysis.
 
 ## Structure
 
@@ -572,7 +574,6 @@ tests/verify_results.R
 tests/verify_package.py
 requirements.txt
 renv.lock
-Final_Project_Report_Florien_Siakoua_Toukam.docx
 Final_Project_Report_Florien_Siakoua_Toukam.pdf
 ```
 
