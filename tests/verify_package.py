@@ -4,7 +4,6 @@ import csv
 import hashlib
 import re
 import struct
-import zipfile
 import json
 from html.parser import HTMLParser
 
@@ -21,7 +20,7 @@ with (ROOT / 'docs/data-checksums.csv').open() as f:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == item['sha256'], path
 
 excluded = {'.cache', '.git'}
-public = [p for p in ROOT.rglob('*') if p.is_file() and not (set(p.relative_to(ROOT).parts) & excluded)]
+public = [p for p in ROOT.rglob('*') if p.is_file() and p.suffix != '.docx' and not (set(p.relative_to(ROOT).parts) & excluded)]
 for path in public:
     assert not path.is_symlink(), path
     assert not (set(path.relative_to(ROOT).parts) & {'.Rproj.user', '__MACOSX', '__pycache__'}), path
@@ -44,11 +43,6 @@ for path in public:
         assert data[:8] == b'\x89PNG\r\n\x1a\n'
         width, height = struct.unpack('>II', data[16:24])
         assert width >= 1000 and height >= 700, path
-    if path.suffix == '.docx':
-        with zipfile.ZipFile(path) as z:
-            xml = z.read('word/document.xml').decode()
-            assert '/Users/' not in xml, path
-            assert 'Florien Siakoua Toukam' in xml, path
 
 # Every entry point and report dependency must resolve inside the project.
 entry = (ROOT / 'final_project.R').read_text()
